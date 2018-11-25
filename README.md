@@ -1,5 +1,6 @@
-# vue-c3
+# vue-c3 fork
 
+## This is a fork to integrate and expand the functionality of Christoph Biering vue-c3
 > vue-c3 is a reusable vue component for [c3](https://github.com/c3js/c3) charts
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
