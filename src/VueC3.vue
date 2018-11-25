@@ -14,6 +14,25 @@
       handler: {
         required: true,
         type: Object
+      },
+      options: {
+        bindto: {
+          required: false,
+          type: String,
+          default: this.$el
+        },
+        size: {
+          required: false,
+          type: Object
+        },
+        data: {
+          required: true,
+          type: Object
+        },
+        axis: {
+          required: false,
+          type: Object
+        }
       }
     },
 
