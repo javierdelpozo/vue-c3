@@ -8,8 +8,6 @@
 
   export default {
     name: 'vuec3',
-
-    // TODO: support for options prop
     props: {
       handler: {
         required: true,
@@ -25,11 +23,47 @@
           required: false,
           type: Object
         },
+        padding: {
+          required: false,
+          type: Object
+        },
+        interaction: {
+          retuired: false,
+          type: Object
+        },
+        oninit: {
+          required: false,
+          type: Function
+        },
         data: {
           required: true,
           type: Object
         },
         axis: {
+          required: false,
+          type: Object
+        },
+        leyend: {
+          required: false,
+          type: Object
+        },
+        tooltip: {
+          required: false,
+          type: Object
+        },
+        line: {
+          required: false,
+          type: Object
+        },
+        area: {
+          required: false,
+          type: Object
+        },
+        bar: {
+          required: false,
+          type: Object
+        },
+        pie: {
           required: false,
           type: Object
         }
