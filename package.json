@@ -23,7 +23,9 @@
     "c3",
     "d3",
     "component",
-    "graph"
+    "graph",
+    "chart",
+    "data visualization"
   ],
   "peerDependencies": {
     "vue": "^2.0.0",
